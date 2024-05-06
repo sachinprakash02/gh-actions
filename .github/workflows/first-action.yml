@@ -7,5 +7,6 @@ jobs:
       - name: Step1
         run: echo "Step 1 Over...."
       - name: Step2
-        run: echo "Step 2 Over..."
-        run: echo "Done..."
+        run: 
+          echo "Step 2 Over..."
+          echo "Done..."
